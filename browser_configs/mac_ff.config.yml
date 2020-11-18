@@ -1,6 +1,0 @@
-browser_caps:
-  -
-    "browser": "Firefox"
-    "os": "OS X"
-    "os_version": "Catalina"
-    
