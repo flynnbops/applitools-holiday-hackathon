@@ -6,12 +6,13 @@ ADD Gemfile* /src/
 RUN bundle install
 
 
-ENV AUTOMATION_TRAINING_UI 'https://automation-training.herokuapp.com'
-ENV DRIVER 'chrome'
+# V1
+ENV APPLIFASHION 'https://demo.applitools.com/tlcHackathonMasterV1.html'
 
-ENV BS_USERNAME 'username'
-ENV BS_ACCESS_KEY 'key'
-ENV BS_PROJECT 'Skeleton'
-ENV BS_BUILD 'build'
-ENV BS_SERVER 'hub-cloud.browserstack.com'
-ENV BS_CONFIG 'win10_edge'
+# Dev Branch
+#ENV APPLIFASHION 'https://demo.applitools.com/tlcHackathonDev.html'
+
+# Prod
+#ENV APPLIFASHION 'https://demo.applitools.com/tlcHackathonMasterV2.html'
+
+ENV DRIVER 'chrome'
